@@ -1,3 +1,5 @@
 spacy
 pandas
 streamlit
+pydantic
+fastapi
