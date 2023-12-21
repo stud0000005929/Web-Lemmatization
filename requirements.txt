@@ -1,5 +1,5 @@
-spacy
-pandas
-streamlit
-pydantic
-fastapi
+spacy==3.7.2
+pandas==2.1.1
+streamlit==1.28.2
+pydantic==2.4.2
+fastapi==0.104.1
