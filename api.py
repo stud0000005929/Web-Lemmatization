@@ -12,7 +12,7 @@ class Response(BaseModel):
     response: str
 
 @app.post("/tokenizer", response_model=Response)
-async def translate(request: Request):
+async def tokenizer(request: Request):
     try:
         response = model.get_json(request.text)
         return {"response": response}
